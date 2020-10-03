@@ -1,0 +1,43 @@
+.wrapper {
+  height: 100vh;
+}
+
+.parallax-img {
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('https://www.proreklamu.com/media/upload/news/53267/16753.jpg');
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Palatino Linotype','Book Antiqua',Palatino,serif;
+    text-align: center; 
+}
+
+a {
+    text-decoration: none; 
+    color: #ffd900;
+}
+a:visited {
+    color: #ffd900;
+}
+a:hover { 
+    !important 
+    color: #ffd700;
+}
+.bs {
+  width: auto;
+}
+.bga{
+    background-color: white;
+    opacity:  0.9;
+}
+.bnt-dark{
+  background-color: gray;
+  color: #ffd900;
+}
+@media screen and (max-width: 1020px){
+  .bs {
+  width: 100%;
+}}
